@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/fida/Desktop/My Work/RnD/7Min v2.0/7Min v2.0/For Android Studio/Sevenminuteworkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="997773777cf3904c11d6764fe3b7668538220e49">
+        <dex dex="/home/fida/Desktop/My Work/RnD/7Min v2.0/7Min v2.0/For Android Studio/Sevenminuteworkout/app/build/intermediates/pre-dexed/debug/classes-56b36eeb59efbce9d7d93a7e0150ea51bf6ef9de.jar" />
+    </item>
+    <item
+        jar="/home/fida/Desktop/My Work/RnD/7Min v2.0/7Min v2.0/For Android Studio/Sevenminuteworkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="/home/fida/Desktop/My Work/RnD/7Min v2.0/7Min v2.0/For Android Studio/Sevenminuteworkout/app/build/intermediates/pre-dexed/debug/classes-8818495c010daafd370347bb17c4398d329f61e1.jar" />
+    </item>
+    <item
+        jar="/home/fida/Desktop/My Work/RnD/7Min v2.0/7Min v2.0/For Android Studio/Sevenminuteworkout/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/fida/Desktop/My Work/RnD/7Min v2.0/7Min v2.0/For Android Studio/Sevenminuteworkout/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-a656e3dbb9442e91aafebdb9e0fc7b7632ba9be1.jar" />
+    </item>
+    <item
+        jar="/home/fida/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/fida/Desktop/My Work/RnD/7Min v2.0/7Min v2.0/For Android Studio/Sevenminuteworkout/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-298c871969f607a8ea1aad65a8ac0edcd7967ed6.jar" />
+    </item>
+    <item
+        jar="/home/fida/Desktop/My Work/RnD/7Min v2.0/7Min v2.0/For Android Studio/Sevenminuteworkout/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/fida/Desktop/My Work/RnD/7Min v2.0/7Min v2.0/For Android Studio/Sevenminuteworkout/app/build/intermediates/pre-dexed/debug/classes-43010e2ec6a511471a59db1b98f1092741baef37.jar" />
+    </item>
+    <item
+        jar="/home/fida/Desktop/My Work/RnD/7Min v2.0/7Min v2.0/For Android Studio/Sevenminuteworkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="/home/fida/Desktop/My Work/RnD/7Min v2.0/7Min v2.0/For Android Studio/Sevenminuteworkout/app/build/intermediates/pre-dexed/debug/classes-3a793944c1f789302feec6b5ddec42a98dc1f1bb.jar" />
+    </item>
+
+</items>

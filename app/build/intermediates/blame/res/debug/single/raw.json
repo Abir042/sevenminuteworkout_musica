@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\Raman Resources\\From Shakil vai\\Projects\\Sevenminuteworkout\\app\\build\\intermediates\\res\\merged\\debug\\raw\\go.mp3",
+        "source": "F:\\Raman Resources\\From Shakil vai\\Projects\\Sevenminuteworkout\\app\\src\\main\\res\\raw\\go.mp3"
+    },
+    {
+        "merged": "F:\\Raman Resources\\From Shakil vai\\Projects\\Sevenminuteworkout\\app\\build\\intermediates\\res\\merged\\debug\\raw\\stop.mp3",
+        "source": "F:\\Raman Resources\\From Shakil vai\\Projects\\Sevenminuteworkout\\app\\src\\main\\res\\raw\\stop.mp3"
+    },
+    {
+        "merged": "F:\\Raman Resources\\From Shakil vai\\Projects\\Sevenminuteworkout\\app\\build\\intermediates\\res\\merged\\debug\\raw\\gtm_analytics",
+        "source": "F:\\Raman Resources\\From Shakil vai\\Projects\\Sevenminuteworkout\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-analytics\\8.1.0\\res\\raw\\gtm_analytics"
+    }
+]

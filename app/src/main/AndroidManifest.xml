@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="sevenminutes.workout"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+<!--    <uses-sdk android:targetSdkVersion="21" />-->
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="sevenminutes.workout.Home"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="sevenminutes.workout.ExcerciseStart"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:launchMode="singleInstance"
+            />
+        <activity
+            android:name="sevenminutes.workout.PlayVideo"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="sevenminutes.workout.AboutUs"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="sevenminutes.workout.Instruction"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="sevenminutes.workout.Setting"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="sevenminutes.workout.MyAlarmService"
+            android:enabled="true" />
+
+        <receiver android:name="sevenminutes.workout.MyReceiver" />
+
+        <!-- Airpush Manifest declaration start -->
+        <!-- Start required declaration for all ads -->
+<!--        <meta-data-->
+<!--            android:name="com.google.android.gms.version"-->
+<!--            android:value="@integer/google_play_services_version" />-->
+
+        <!-- Include the AdActivity configChanges and theme. -->
+<!--        <activity-->
+<!--            android:name="com.google.android.gms.ads.AdActivity"-->
+<!--            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"-->
+<!--            android:theme="@android:style/Theme.Translucent" />-->
+
+
+        <!-- Start declaration for push notification ads. -->
+        <!--<service-->
+            <!--android:name="com.soudehflyo.cdnwmxgcrz225371.LService"-->
+            <!--android:exported="false" />-->
+
+        <!--<receiver android:name="com.soudehflyo.cdnwmxgcrz225371.BootReceiver">-->
+            <!--<intent-filter android:priority="-1000">-->
+                <!--<action android:name="android.intent.action.BOOT_COMPLETED" />-->
+
+                <!--<category android:name="android.intent.category.HOME" />-->
+            <!--</intent-filter>-->
+        <!--</receiver>-->
+        <!-- End declaration for push notification ads. -->
+
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="210558411" />
+
+    </application>
+
+</manifest>

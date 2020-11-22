@@ -1,0 +1,275 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/setting"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout">
+		
+        <TextView 
+            android:id="@+id/txt_settingtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settingtitle"
+            android:textColor="#fff"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+			android:layout_marginLeft="82dp"            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/body_bg"
+        android:id="@+id/RL_Sound">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/sound"
+            android:id="@+id/txt_temp1"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:id="@+id/btn_sound_switch"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/on_buttons"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/body_bg"
+        android:id="@+id/RL_Reminder"
+        android:layout_below="@+id/RL_Sound"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/reminder"
+            android:id="@+id/txt_temp2"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/reminder_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/body_bg"
+        android:id="@+id/RL_Removeads"
+        android:layout_below="@+id/RL_Share"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/removeads"
+            android:id="@+id/txt_temp3"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/removeadd_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center_vertical"
+        android:background="@drawable/body_bg"
+        android:id="@+id/RL_Share"
+        android:layout_below="@+id/RL_Reminder"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/share"
+            android:id="@+id/txt_temp4"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/share_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RL_Reminder_layout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#E0E2E3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/relativeLayout8"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/date"
+                android:textColor="@color/orange"
+                android:id="@+id/txt_temp5"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/ed_date"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:background="@color/dimcolor"
+                android:textColor="@color/blue"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/txt_temp5"
+                android:layout_toEndOf="@+id/txt_temp5"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/relativeLayout8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal"
+            android:id="@+id/relativeLayout9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="15dp"
+                android:gravity="center_vertical"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/time"
+                android:textColor="@color/orange"
+                android:id="@+id/txt_temp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/ed_time"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:textSize="15dp"
+                android:textColor="@color/blue"
+                android:background="@color/dimcolor"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/txt_temp"
+                android:layout_toEndOf="@+id/txt_temp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_above="@+id/relativeLayout9">
+
+            <Button
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/btn_save"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/yes_icon"/>
+
+            <Button
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/btn_cancel"
+                android:background="@drawable/cancel_icon"
+                android:layout_alignParentBottom="true"
+                android:layout_toLeftOf="@+id/btn_save"
+                android:layout_marginRight="20dp"
+                android:layout_toStartOf="@+id/btn_save" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

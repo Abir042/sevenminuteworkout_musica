@@ -1,0 +1,381 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RL_Touch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="sevenminutes.workout.ExcerciseStart" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title1" >
+
+        <TextView
+            android:id="@+id/txttitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/workout"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/btn_exe_home"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/setting_button" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:clickable="false"
+            android:visibility="gone"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/continue_icon" />
+
+        <TextView
+            android:id="@+id/txt_continuous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:text="@string/continuous"
+            android:textColor="#3caeca"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/txt_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"
+            android:text="@string/pause"
+            android:textColor="#3caeca"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/txt_previous"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/previous"
+            android:gravity="center"
+            android:textColor="#3caeca"
+            android:layout_marginLeft="5dp"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/txt_next"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:text="@string/next"
+            android:textColor="#3caeca"
+            android:textSize="12dp" />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/next_icon" />
+
+        <Button
+            android:id="@+id/btn_previous"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/previous_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/relativeLayout6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout" >
+
+<!--        <com.startapp.sdk.ads.banner.Banner-->
+<!--            android:id="@+id/startAppBanner"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:layout_centerHorizontal="true"-->
+<!--            android:layout_above="@id/btn_video"/>-->
+
+        <Button
+            android:id="@+id/btn_video"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/video_icon" />
+
+        <ImageView
+            android:id="@+id/img_excercise"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/txt_execercise_name"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/txt_rest"
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/txt_execercise_name"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/rest"
+            android:textColor="#E6592D"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_execercise_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:text="@string/jumpingjacktitle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#329fbd"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/relativeLayout3"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/nextexercise"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="15dp" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="20dp"
+                android:layout_height="18dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:clickable="false"
+                android:visibility="gone"
+                android:layout_toLeftOf="@+id/textView"
+                android:layout_toStartOf="@+id/textView"
+                android:background="@drawable/exrcise_change" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="20dp"
+                android:layout_height="18dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:clickable="false"
+                android:visibility="gone"
+                android:layout_toEndOf="@+id/textView"
+                android:layout_toRightOf="@+id/textView"
+                android:background="@drawable/next_exrcise_change" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/relativeLayout4"
+            android:layout_centerHorizontal="true" >
+
+            <TextView
+                android:id="@+id/txt_next_excercise"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp" >
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:indeterminate="false"
+            android:max="100"
+            android:progress="75"
+            android:progressDrawable="@drawable/style_circle_fill"
+            android:secondaryProgress="10" />
+
+        <TextView
+            android:id="@+id/txt_progress_number"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignBottom="@+id/progressBar1"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/timertext"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#45BFD3"
+            android:textSize="50dp" />
+
+        <TextView
+            android:id="@+id/textview_temp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/progressBar1"
+            android:gravity="center"
+            android:text="@string/touchtopause"
+            android:textSize="12dp" />
+    </RelativeLayout>
+
+    <!--
+       <ProgressBar
+           android:id="@+id/progressBar1"
+           style="?android:attr/progressBarStyleHorizontal"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:layout_centerHorizontal="true"
+           android:indeterminate="false"
+           android:max="100"
+           android:progress="75"
+           android:progressDrawable="@drawable/style_circle_fill"
+           android:secondaryProgress="10" />
+
+       <TextView
+           android:id="@+id/textView1"
+           android:layout_width="100dp"
+           android:layout_height="100dp"
+           android:textSize="50dp"
+           android:text="11"
+           android:gravity="center"
+           android:textAppearance="?android:attr/textAppearanceSmall"
+           android:layout_alignBottom="@+id/progressBar1"
+           android:layout_centerHorizontal="true" />
+
+       <ImageView
+           android:layout_width="300dp"
+           android:layout_height="200dp"
+           android:id="@+id/imageView"
+           android:layout_below="@+id/progressBar1"
+           android:layout_centerHorizontal="true"
+           android:layout_marginTop="37dp"
+           android:background="@drawable/eex1"
+           />
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="Large Text"
+           android:id="@+id/txt_execercise_name"
+           android:gravity="center"
+           android:layout_below="@+id/progressBar1"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentEnd="true" />
+
+       <TextView
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="NEXT EXCERCISE"
+           android:id="@+id/textView"
+           android:gravity="center"
+           android:layout_below="@+id/imageView"
+           android:layout_marginTop="35dp"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentEnd="true" />
+
+       <TextView
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:textAppearance="?android:attr/textAppearanceLarge"
+           android:text="NEXT EXCERCISE"
+           android:gravity="center"
+           android:id="@+id/txt_next_excercise"
+           android:layout_alignParentBottom="true"
+           android:layout_centerHorizontal="true" />
+    -->
+
+</RelativeLayout>

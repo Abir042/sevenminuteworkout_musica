@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@drawable/title"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/relativeLayout7">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/jumpingjacktitle"
+            android:id="@+id/txt_exe_name"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="#E6592D"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:textSize="15dp"
+            android:text="@string/touchtopause"
+            android:id="@+id/txt_copyright_name"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/txt_exe_name"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <WebView
+        android:layout_width="fill_parent"
+        android:layout_height="550dp"
+        android:id="@+id/web_video"
+        android:background="#fff"
+        android:layout_below="@+id/relativeLayout7"
+        android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+    <com.startapp.sdk.ads.banner.Banner
+        android:id="@+id/startAppBanner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

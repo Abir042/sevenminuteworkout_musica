@@ -1,0 +1,4 @@
+#Thu Nov 19 01:13:42 BDT 2020
+base.0=C\:\\Users\\abirh\\AndroidStudioProjects\\Sevenminuteworkout\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<dict>
+	<key>List</key>
+	<array>
+		<dict>
+			<key>Name</key>
+			<string>Jumping Jack</string>
+			<key>Image</key>
+			<string>jumping_jack.png</string>
+			<key>Video URL</key>
+			<string>http://www.youtube.com/embed/ViMtiiyu_oo</string>
+			<key>Copyright</key>
+			<string>LivingJade</string>
+			<key>Description</key>
+			<string>To perform  jumping jacks stand upright with your legs together and arms next to the sides of your body.Jump your legs apart so that they are wider your hip width.  At the same time raise your arms out to the sides to shoulder level and higher to form a star shape.Return your arms and legs by jumping back in.  Be light on your feet and keep your knees slightly bent.Breathe out as you jump out with your legs and breathe in as you return your arms and legs back in to the start.</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Wall sit</string>
+			<key>Image</key>
+			<string>wall_sit.png</string>
+			<key>Video URL</key>
+			<string>http://www.youtube.com/embed/-cdph8hv0O0</string>
+			<key>Copyright</key>
+			<string>FitnessBlender</string>
+			<key>Description</key>
+			<string>A wall sit-down exercise starts by standing about 2 feet away from a wall with your back against the wall.Slide your back down the wall until your hips and knees bend at a 90-degree angle. Keep your shoulders, upper back and back of your head against the wall.</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Push Up</string>
+			<key>Image</key>
+			<string>push_up.png</string>
+			<key>Video URL</key>
+			<string>http://www.youtube.com/embed/Eh00_rniF8E</string>
+			<key>Copyright</key>
+			<string>Scott Malin</string>
+			<key>Description</key>
+			<string>The starting position is facing down with weight distributed on the hands and feet. The body is rigid and straight, and the hands are usually placed approximately shoulder width apart.Lower your body until your chest nears the floor at the bottom of the movement, and then return up to the starting position. This is one repetition. Remember to move in a nice fluid motion, keeping the core muscle groups activated. Breathe out on the way down, and breathe in as you come back up.</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Abdominal crunches</string>
+			<key>Image</key>
+			<string>abdominal_crunches.png</string>
+			<key>Video URL</key>
+			<string>http://www.youtube.com/embed/u0nVypf_XIQ</string>
+			<key>Copyright</key>
+			<string>expertvillage</string>
+			<key>Description</key>
+			<string>Lie on your back, bend your knees, placing your hands on the sides of your head. Contract your abs and flatten your lower back against the floor. Slowly lift your shoulder blades one or two inches off the floor. Exhale as you lift, keep your neck straight and chin up. Hold for a few seconds (don&apos;t hold your breath). Slowly lower while keeping your abs contracted.</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Step-ups onto a chair</string>
+			<key>Image</key>
+			<string>step_ups_onto_a_chair.png</string>
+			<key>Video URL</key>
+			<string>http://www.youtube.com/embed/aajhW7DD1EA</string>
+			<key>Copyright</key>
+			<string>XHIT Daily</string>
+			<key>Description</key>
+			<string>Get a chair and position it so its seat is facing you. Raise your right leg and step onto the seat with your right foot.Bring your left leg up so you are standing on the chair. Keeping your gaze straight ahead, step down with your right leg and then your left. Repeat on the other side.</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Squat</string>
+			<key>Image</key>
+			<string>squat.png</string>
+			<key>Video URL</key>
+			<string>http://www.youtube.com/embed/rXJzj9K3sxU</string>
+			<key>Copyright</key>
+			<string>Lionsgate BeFit</string>
+			<key>Description</key>
+			<string>Stand up straight with your feet firmly planted on the ground approximately shoulder width apart. To help maintain a straight back as you perform the exercise, it&apos;s a good idea to focus on an object directly ahead of you at eye level. Contract your abdominal muscles as you bend your legs at the knees. Either stretch your arms out ahead of you, lightly position your hands behind your ears or hold your arms at your side as you slowly lower yourself into a squatting position. Lower your body to a position where your thighs are almost parallel to the floor. Return to the starting position and repeat.</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Triceps dips on a chair</string>
+			<key>Image</key>
+			<string>triceps_dips_on_a_chair.png</string>
+			<key>Video URL</key>
+			<string>http://www.youtube.com/embed/3nhqz1DgzN8</string>
+			<key>Copyright</key>
+			<string>expertvillage</string>
+			<key>Description</key>
+			<string>Sit on side of bench. Place hands on edge of bench. Position feet away from bench. Straighten arms, slide rear end off of edge of bench, and rest heels on floor with legs straight. Lower body by bending arms until slight stretch is felt in chest or shoulder, or rear end touches floor. Raise body and repeat.</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Planks</string>
+			<key>Image</key>
+			<string>planks.png</string>
+			<key>Video URL</key>
+			<string>http://www.youtube.com/embed/MvaL9EfAO4M</string>
+			<key>Copyright</key>
+			<string>expertvillage</string>
+			<key>Description</key>
+			<string>Get into pushup position on the floor. Now bend your elbows 90 degrees and rest your weight on your forearms.Your elbows should be directly beneath your shoulders, and your body should form a straight line from your head to your feet. Hold the position.</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>High knees/running in place</string>
+			<key>Image</key>
+			<string>high_knees_running_in_place.png</string>
+			<key>Video URL</key>
+			<string>http://www.youtube.com/embed/MvaL9EfAO4M</string>
+			<key>Copyright</key>
+			<string>expertvillage</string>
+			<key>Description</key>
+			<string>It simply involves you performing a typical running motion while lifting your knees high into the air. you must ensure that your legs are at 90-degree angles when being lifted high into the air. Point your toes forward in order to maintain the correct form and to really benefit from this simple exercise. Also, make sure you do not land on the heels of your feet. Instead, remain on the balls of your feet in order to avoid injury.</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Lunges</string>
+			<key>Image</key>
+			<string>lunges.png</string>
+			<key>Video URL</key>
+			<string>http://www.youtube.com/embed/HOnkmCTG9mY</string>
+			<key>Copyright</key>
+			<string>Gudgie</string>
+			<key>Description</key>
+			<string>To perform a lunge, you must first begin by standing up straight with your shoulders back and relaxed and your chin up. Remember to contract your abdominal and core muscles! Next, step forward with one leg, lowering your hips until both knees are bent at about a 90-degree angle. It is important to keep your front knee directly above your ankle, not pushed out too far, and to make sure your other knee isn’t touching the floor. Maintain the weight in your heels as you then push up to the starting position</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Push-ups and rotations</string>
+			<key>Image</key>
+			<string>push_ups_and_rotations.png</string>
+			<key>Video URL</key>
+			<string>http://www.youtube.com/embed/wK4OWIvZQGo</string>
+			<key>Copyright</key>
+			<string>WATTAGE</string>
+			<key>Description</key>
+			<string>In order to perform a push-up and rotation, get into the classic push-up position, but on your way up, remember to rotate your body so your right arm lifts up and extends overhead to form a T shape with your torso. Then, return to your starting position and lower yourself towards the ground. The next step is then to push up and rotate until your left hand is now pointing towards the ceiling.</string>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Side planks</string>
+			<key>Image</key>
+			<string>side_planks.png</string>
+			<key>Video URL</key>
+			<string>http://www.youtube.com/embed/1TzI8j776Z8</string>
+			<key>Copyright</key>
+			<string>expertvillage</string>
+			<key>Description</key>
+			<string>To perform a proper side plank, first you must lie on your left side with your knees straight. The next step is to position your elbow under your shoulder and to prop up your upper body on your left elbow and forearm. Contract your abdominal muscles and raise your hips until your body forms a straight line from your ankles to your shoulders. Whilst holding this position, remember to breathe deeply. The next step is to repeat this process using the other side of your body.</string>
+		</dict>
+	</array>
+</dict>
+</plist>
+<!-- From: file:/F:/Raman%20Resources/From%20Shakil%20vai/Projects/Sevenminuteworkout/app/src/main/res/xml/excerciselist.xml -->

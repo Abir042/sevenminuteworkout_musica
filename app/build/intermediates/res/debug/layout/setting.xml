@@ -1,0 +1,276 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/setting">
+
+        <TextView
+            android:id="@+id/txt_settingtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="82dp"
+            android:text="@string/settingtitle"
+            android:textColor="#fff" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RL_Sound"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout"
+        android:background="@drawable/body_bg"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_temp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/sound"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/btn_sound_switch"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/on_buttons" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RL_Reminder"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/RL_Sound"
+        android:background="@drawable/body_bg"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_temp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/reminder"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/reminder_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RL_Removeads"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/RL_Share"
+        android:background="@drawable/body_bg"
+        android:gravity="center_vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/txt_temp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/removeads"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/removeadd_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/RL_Share"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/RL_Reminder"
+        android:background="@drawable/body_bg"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_temp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/share"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/share_icon" />
+    </RelativeLayout>
+
+    <RelativeLayout
+
+        android:id="@+id/RL_Reminder_layout"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#E0E2E3">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal|center_vertical">
+
+            <TextView
+                android:id="@+id/txt_temp5"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:text="@string/date"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/orange"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/ed_date"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/txt_temp5"
+                android:layout_toRightOf="@+id/txt_temp5"
+                android:background="@color/dimcolor"
+                android:gravity="center"
+                android:textColor="@color/blue"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout9"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/relativeLayout8"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/txt_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:text="@string/time"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/orange"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/ed_time"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                android:layout_toEndOf="@+id/txt_temp"
+                android:layout_toRightOf="@+id/txt_temp"
+                android:background="@color/dimcolor"
+                android:gravity="center"
+                android:textColor="@color/blue"
+                android:textSize="15dp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/relativeLayout9"
+            android:gravity="center_vertical">
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/yes_icon" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="20dp"
+                android:layout_toLeftOf="@+id/btn_save"
+                android:layout_toStartOf="@+id/btn_save"
+                android:background="@drawable/cancel_icon" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout><!-- From: file:/F:/Raman%20Resources/From%20Shakil%20vai/Projects/Sevenminuteworkout/app/src/main/res/layout/setting.xml -->

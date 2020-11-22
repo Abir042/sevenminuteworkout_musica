@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">7 Min Workout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="bagroundColor">#ffffff</string>
+
+    <!-- About us localize -->
+    <string name="aboutus">ACERCA DE NOS</string>
+    <string name="aboutuspara1">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</string>
+    <string name="aboutuspara2">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</string>
+    <string name="aboutuspara3">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. "</string>
+    <string name="aboutuspara4">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</string>
+    <string name="aboutuspara5">Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+    <!-- Home page localize -->
+
+
+    <!-- Home page localize -->
+    <string name="homestate">"Está científicamente probado por científicos de la Universidad McMaster en Hamilton que incluso unos pocos minutos de entrenamiento a una intensidad que se acercan a su capacidad máxima produce cambios moleculares dentro de los músculos comparables a los de varias horas de ejercicio trabajadora”</string>
+    <string name="about">Acerca de nos</string>
+    <string name="instructionhome">Instrucción</string>
+    <string name="moreapp">Más App</string>
+    <string name="rateus">La tasa</string>
+
+    <!-- Exercise page localization -->
+    <string name="rest">DESCANSO</string>
+    <string name="jumpingjacktitle">1/12 Jumping Jacks</string>
+    <string name="timertext">0</string>
+    <string name="touchtopause">TOQUE PARA DETENER</string>
+    <string name="touchtostart">TOQUE PARA COMENZAR</string>
+    <string name="nextexercise">PRÓXIMO EJERCICIO</string>
+    <string name="start">EMPEZAR</string>
+    <string name="workout">WORKOUT</string>
+    <string name="next">próximo</string>
+    <string name="continuous">Continuo</string>
+    <string name="previous">Anterior</string>
+    <string name="pause">Pausa</string>
+
+    <!-- Instruction cell localize -->
+    <string name="instruction">Instrucción</string>
+
+    <!-- instruction localize -->
+
+    <string name="sevenminute">MINUTE</string>
+    <string name="exercise">EJERCICIO</string>
+    <string name="instructionpara1">The workout was developed by The Human Performance Institute and requires only resistance from body weight, so you don’t have to purchase any fancy exercise equipment or visit a gym to get in shape. The downside is that the 7-minute workout explanations from Institute and The Times only featured descriptions of the exercises paired with pictures or illustrations -something hard to base an exercise routine on if you’ve never actually done these workouts before.</string>
+    <string name="instructionpara2">Twelve exercises make up the 7-Minute Workout, including jumping jacks, wall sits, push-ups, abdominal crunches, chair step-ups, squats, triceps dips on chair, planks, high knees running in place, lunges, push-up and rotations, and side planks. Part of what makes this workout so appealing is how many machines and exercise tools you don’t need. In fact, the entire workout consists of body weight exercises that only require a chair and a wall.</string>
+    <string name="instructionpara3">It targets all areas of your body equally The purpose of the exercises should be to build strength in all major muscle groups, and to create a balance of strength throughout the body. You wont do five exercises targeting your lower body and just one targeting upper body. Instead, all body parts get the same amount of attention.</string>
+    <string name="instructionpara4">It alternates between major muscle groups One of the reasons that HICT is such an intense and speedy fat-blaster is because many HICT workouts alternate moves between major muscle groups from legs to arms to core, for instance, so you are not working legs for two or three moves in a row. This means that you don’t need to take long rest periods between moves, because while one muscle working, another is resting. Jumping from move to move to move with little to no rest in between guarantees that your heart rate stays elevated (and it helps you finish the circuit faster, because there’s no resting in between moves). And if you have one move that jacks up your heart rate (like jumping squats), you can lower your heart rate with the next move that’s less intense (like a stationary plank).</string>
+    <string name="seven">7</string>
+    <string name="minwork">7 MINUTE</string>
+
+
+    <!-- setting page localization -->
+    <string name="settingtitle">Ajustes</string>
+    <string name="sound">Sonar</string>
+    <string name="reminder">Recordatorio</string>
+    <string name="removeads">Quitar anuncios</string>
+    <string name="share">Compartir</string>
+    <string name="time">Hora :</string>
+    <string name="date">Fecha :</string>
+    <string name="share_text">¿Quieres perder algo de peso. Pruebe esta aplicación para estar en forma.</string>
+
+    <!-- Banner ad -->
+    <!--<string name="bannerkey">ca-app-pub-3730886167471578/1141078441</string>-->
+    <string name="bannerkey">ca-app-pub-8348857966805418/3806825887</string>
+    <string name="bannervisible">yes</string>
+    <string name="insertialvisible">yes</string>
+    <!-- interstitial ad key -->
+    <string name="insertial_ad_key">ca-app-pub-3730886167471578/2617811641</string>
+
+    <!-- more app link -->
+    <string name="moreapplink">https://play.google.com/store/apps/dev?id=5700313618786177705</string>
+
+</resources>

@@ -1,0 +1,260 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="sevenminutes.workout"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml
+10
+11    <!-- <uses-sdk android:targetSdkVersion="21" /> -->
+12
+13    <uses-permission android:name="com.android.vending.BILLING" />
+13-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:9:5-67
+13-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:9:22-64
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:11:5-68
+14-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:11:22-65
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:12:5-67
+15-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:12:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:13:5-79
+16-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:13:22-76
+17    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+17-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:14:5-75
+17-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:14:22-72
+18    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+18-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:15:5-93
+18-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:15:22-90
+19    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+19-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:16:5-71
+19-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:16:22-68
+20    <uses-permission android:name="android.permission.BLUETOOTH" />
+20-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:17:5-68
+20-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:17:22-65
+21    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+21-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:18:5-81
+21-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:18:22-78
+22    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+22-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:19:5-79
+22-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:19:22-76
+23    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+23-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:20:5-78
+23-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:20:22-75
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:21:5-81
+24-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:21:22-78
+25    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+25-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:22:5-76
+25-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:22:22-73
+26    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+26-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:23:5-81
+26-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:23:22-78
+27    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+27-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:24:5-88
+27-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:24:22-85
+28    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+28-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:15:5-110
+28-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:15:22-107
+29
+30    <application
+30-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:26:5-110:19
+31        android:allowBackup="true"
+31-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:27:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.3.0] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\429fb715fcc7711d4ab133e350b6f531\core-1.3.0\AndroidManifest.xml:24:18-86
+33        android:icon="@drawable/ic_launcher"
+33-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:28:9-45
+34        android:label="@string/app_name"
+34-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:29:9-41
+35        android:theme="@style/AppTheme" >
+35-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:30:9-40
+36        <activity
+36-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:32:9-43:20
+37            android:name="sevenminutes.workout.Home"
+37-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:33:13-53
+38            android:label="@string/app_name"
+38-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:34:13-45
+39            android:launchMode="singleInstance"
+39-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:36:13-48
+40            android:screenOrientation="portrait" >
+40-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:35:13-49
+41            <intent-filter>
+41-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:38:13-42:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:39:17-69
+42-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:39:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:41:17-77
+44-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:41:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:44:9-50:15
+48            android:name="sevenminutes.workout.ExcerciseStart"
+48-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:45:13-63
+49            android:configChanges="orientation"
+49-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:46:13-48
+50            android:label="@string/app_name"
+50-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:47:13-45
+51            android:launchMode="singleInstance"
+51-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:49:13-48
+52            android:screenOrientation="portrait" />
+52-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:48:13-49
+53        <activity
+53-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:51:9-56:15
+54            android:name="sevenminutes.workout.PlayVideo"
+54-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:52:13-58
+55            android:configChanges="orientation"
+55-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:53:13-48
+56            android:label="@string/app_name"
+56-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:54:13-45
+57            android:screenOrientation="portrait" />
+57-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:55:13-49
+58        <activity
+58-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:57:9-61:52
+59            android:name="sevenminutes.workout.AboutUs"
+59-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:58:13-56
+60            android:configChanges="orientation"
+60-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:59:13-48
+61            android:label="@string/app_name"
+61-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:60:13-45
+62            android:screenOrientation="portrait" />
+62-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:61:13-49
+63        <activity
+63-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:62:9-66:52
+64            android:name="sevenminutes.workout.Instruction"
+64-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:63:13-60
+65            android:configChanges="orientation"
+65-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:64:13-48
+66            android:label="@string/app_name"
+66-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:65:13-45
+67            android:screenOrientation="portrait" />
+67-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:66:13-49
+68        <activity
+68-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:67:9-71:52
+69            android:name="sevenminutes.workout.Setting"
+69-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:68:13-56
+70            android:configChanges="orientation"
+70-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:69:13-48
+71            android:label="@string/app_name"
+71-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:70:13-45
+72            android:screenOrientation="portrait" />
+72-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:71:13-49
+73
+74        <service
+74-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:73:9-75:38
+75            android:name="sevenminutes.workout.MyAlarmService"
+75-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:74:13-63
+76            android:enabled="true" />
+76-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:75:13-35
+77
+78        <receiver android:name="sevenminutes.workout.MyReceiver" />
+78-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:77:9-68
+78-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:77:19-65
+79
+80        <!-- Airpush Manifest declaration start -->
+81        <!-- Start required declaration for all ads -->
+82        <!-- <meta-data -->
+83        <!-- android:name="com.google.android.gms.version" -->
+84        <!-- android:value="@integer/google_play_services_version" /> -->
+85
+86
+87        <!-- Include the AdActivity configChanges and theme. -->
+88        <!-- <activity -->
+89        <!-- android:name="com.google.android.gms.ads.AdActivity" -->
+90        <!-- android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" -->
+91        <!-- android:theme="@android:style/Theme.Translucent" /> -->
+92
+93
+94        <!-- Start declaration for push notification ads. -->
+95        <!-- <service -->
+96        <!-- android:name="com.soudehflyo.cdnwmxgcrz225371.LService" -->
+97        <!-- android:exported="false" /> -->
+98
+99
+100        <!-- <receiver android:name="com.soudehflyo.cdnwmxgcrz225371.BootReceiver"> -->
+101        <!-- <intent-filter android:priority="-1000"> -->
+102        <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
+103
+104
+105        <!-- <category android:name="android.intent.category.HOME" /> -->
+106        <!-- </intent-filter> -->
+107        <!-- </receiver> -->
+108        <!-- End declaration for push notification ads. -->
+109
+110        <meta-data
+110-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:106:9-108:41
+111            android:name="com.startapp.sdk.APPLICATION_ID"
+111-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:107:13-59
+112            android:value="210558411" />
+112-->C:\Users\abirh\AndroidStudioProjects\Sevenminuteworkout\app\src\main\AndroidManifest.xml:108:13-38
+113
+114        <provider
+114-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:18:9-21:40
+115            android:name="com.startapp.sdk.adsbase.StartAppInitProvider"
+115-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:19:13-73
+116            android:authorities="sevenminutes.workout.startappinitprovider"
+116-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:20:13-72
+117            android:exported="false" />
+117-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:21:13-37
+118
+119        <activity
+119-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:23:9-26:64
+120            android:name="com.startapp.sdk.adsbase.consent.ConsentActivity"
+120-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:24:13-76
+121            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+121-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:25:13-87
+122            android:theme="@android:style/Theme.Translucent" />
+122-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:26:13-61
+123        <activity
+123-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:27:9-29:52
+124            android:name="com.startapp.sdk.ads.list3d.List3DActivity"
+124-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:28:13-70
+125            android:theme="@android:style/Theme" />
+125-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:29:13-49
+126        <activity
+126-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:30:9-33:64
+127            android:name="com.startapp.sdk.adsbase.activities.OverlayActivity"
+127-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:31:13-79
+128            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+128-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:32:13-87
+129            android:theme="@android:style/Theme.Translucent" />
+129-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:33:13-61
+130        <activity
+130-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:34:9-37:52
+131            android:name="com.startapp.sdk.adsbase.activities.FullScreenActivity"
+131-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:35:13-82
+132            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+132-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:36:13-87
+133            android:theme="@android:style/Theme" />
+133-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:37:13-49
+134
+135        <service android:name="com.startapp.sdk.adsbase.InfoEventService" />
+135-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:39:9-77
+135-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:39:18-74
+136        <service
+136-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:40:9-42:72
+137            android:name="com.startapp.sdk.adsbase.PeriodicJobService"
+137-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:41:13-71
+138            android:permission="android.permission.BIND_JOB_SERVICE" />
+138-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:42:13-69
+139
+140        <receiver android:name="com.startapp.sdk.adsbase.remoteconfig.BootCompleteListener" >
+140-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:44:9-48:20
+140-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:44:19-92
+141            <intent-filter>
+141-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:45:13-47:29
+142                <action android:name="android.intent.action.BOOT_COMPLETED" />
+142-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:46:17-79
+142-->[com.startapp:inapp-sdk:4.6.3] C:\Users\abirh\.gradle\caches\transforms-2\files-2.1\04cd7eeee3f902ce424f1b37a93eefcc\jetified-inapp-sdk-4.6.3\AndroidManifest.xml:46:25-76
+143            </intent-filter>
+144        </receiver>
+145    </application>
+146
+147</manifest>

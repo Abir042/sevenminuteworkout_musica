@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/title">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/txt_exe_name"
+            android:layout_width="fill_parent"
+            android:layout_height="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center_vertical"
+            android:text="@string/jumpingjacktitle"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#E6592D"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/txt_copyright_name"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/txt_exe_name"
+            android:gravity="center_vertical"
+            android:text="@string/touchtopause"
+            android:textSize="10dp" />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/web_video"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativeLayout7"
+        android:layout_centerHorizontal="true"
+        android:background="#fff" />
+
+</RelativeLayout><!-- From: file:/F:/Raman%20Resources/From%20Shakil%20vai/Projects/Sevenminuteworkout/app/src/main/res/layout/playvideo.xml -->
